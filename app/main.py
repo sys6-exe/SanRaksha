@@ -6,7 +6,7 @@ import pandas as pd
 
 
 try:
-    model = joblib.load("model.pkl")
+    model = joblib.load("app/model.pkl")
 except FileNotFoundError:
     print("Error: Model file not found.")
     model = None
