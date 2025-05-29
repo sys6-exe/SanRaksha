@@ -49,4 +49,4 @@ async def predict(data: Union[PatientParams, List[PatientParams]]):
     df = df.fillna(-999)
     X = pd.concat([df,missing_flags], axis=1)
     prediction = model.predict(X)
-    return {"prediction": int(prediction[0])}
+    return {"prediction": prediction.tolist()}
