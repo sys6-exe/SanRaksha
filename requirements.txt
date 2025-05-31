@@ -6,3 +6,5 @@ xgboost==3.0.2
 scikit-learn==1.4.2
 numpy==2.2.6
 python-dotenv==1.1.0
+verstack==4.1.7
+tensorflow==2.19
