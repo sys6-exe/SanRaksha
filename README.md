@@ -1,6 +1,6 @@
 # 🩺 **SanRaksha: A Maternal Health Risk Assessment Ecosystem**
 
-SanRaksha is an open‑source, AI‑driven platform that helps **ASHA workers**, **ANMs**, and **PHC/CHC staff** detect and track high‑risk pregnancies in rural India.  
+SanRaksha is an open‑source, AI‑driven platform that helps **ASHA workers**, **ANMs**, and **PHC/CHC staff** detect and track high‑risk pregnancies in rural India **Safeguarding Moms** .  
 It works fully **offline** on low‑cost Android phones and **syncs** when connectivity returns.
 
 ---
