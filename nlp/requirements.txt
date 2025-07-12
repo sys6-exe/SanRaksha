@@ -1,0 +1,5 @@
+openai-whisper
+torch
+pydub
+word2number
+num2words
