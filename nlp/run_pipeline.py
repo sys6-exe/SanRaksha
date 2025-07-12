@@ -4,7 +4,7 @@ import json
 from src.transcriber import transcribe_audio
 from src.parser import extract_health_data
 
-AUDIO_PATH = "audio/7.mp3"
+AUDIO_PATH = ""
 
 if __name__ == "__main__":
     print("[INFO] Transcribing...")
