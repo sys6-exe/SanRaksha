@@ -8,3 +8,9 @@ numpy
 python-dotenv==1.1.0
 verstack==4.1.7
 tensorflow
+streamlit>=1.35.0
+folium>=0.15.0
+streamlit-folium>=0.16.0
+plotly>=5.20.0
+openai-whisper>=20230314
+
