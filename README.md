@@ -128,7 +128,7 @@ Attribution details available in `NOTICE`
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-org>/sanraksha.git
+git clone https://github.com/sys6-exe/SanRaksha
 cd sanraksha
 
 # Run backend API server
