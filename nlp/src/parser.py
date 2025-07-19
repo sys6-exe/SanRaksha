@@ -91,7 +91,6 @@ def extract_health_data(text: str) -> dict:
         "bmi": "bmi"
     }
 
-
     for hin, eng in replacements.items():
         text = text.replace(hin, eng)
 
