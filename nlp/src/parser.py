@@ -54,19 +54,40 @@ def extract_health_data(text: str) -> dict:
 
     replacements = {
         "upar wala": "systolic",
+        "upar ka": "systolic",
+        "first reading": "systolic",
+        "upar": "systolic",
+        
         "neeche wala": "diastolic",
-        "upar": "upper",
-        "neeche": "lower",
+        "neeche ka": "diastolic",
+        "second reading": "diastolic",
+        "neeche": "diastolic",
+
         "rakt chaap": "blood pressure",
         "bp": "blood pressure",
+        "blood pressure": "blood pressure",
+
         "dil ki dhadkan": "heart rate",
         "dhadkan": "heart rate",
         "nabz": "heart rate",
-        "bukhar": "temperature",
-        "taapmaan": "temperature",
-        "tapman": "temperature",
+        "pulse": "heart rate",
+        "heartbeat": "heart rate",
+
+        "bukhar": "body temperature",
+        "tapmaan": "body temperature",
+        "taapmaan": "body temperature",
+        "tapman": "body temperature",
+        "temperature": "body temperature",
+
         "cheeni": "blood sugar",
         "sugar": "blood sugar",
+        "sugar level": "blood sugar",
+        "blood sugar": "blood sugar",
+        "sugar test": "blood sugar",
+
+        "weight": "bmi",
+        "weight ratio": "bmi",
+        "height weight": "bmi",
         "bmi": "bmi"
     }
 
