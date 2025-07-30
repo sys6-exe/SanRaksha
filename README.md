@@ -76,9 +76,9 @@ Built with **Streamlit**, the dashboard provides:
 
 - **Geolocation map** of risk cases (Folium + Plotly)
 - **Risk pie charts**, bar graphs, daily checkup stats
-- **Complaint panel** (via Whisper + form + auto CSV save)
+- **Complaint panel** (via form + auto CSV save)
 - Downloadable reports
-- India-focused view with filtering by date/state
+- India-focused view with filtering by state
 
 > Perfect for PHC/CHC staff to monitor local maternal risk trends.
 
@@ -128,7 +128,7 @@ Attribution details available in `NOTICE`
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-org>/sanraksha.git
+git clone https://github.com/sys6-exe/SanRaksha
 cd sanraksha
 
 # Run backend API server
