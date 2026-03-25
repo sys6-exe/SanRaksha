@@ -208,7 +208,7 @@ def extract_health_data(text: str) -> ParseResult:
             r"blood sugar[^\d]*(\d+(?:\.\d+)?|[a-z\s\-]+)"
         ),
         "body_temp":    extract_pattern(
-            r"(?:body temperature)[^\d]*(\d+(?:\.\d+)?|[a-z\s\-]+)"
+            r"(?:body\s+temperature|body\s+temp|temperature|temp)[^\d]*(\d+(?:\.\d+)?|[a-z\s\-]+)"
         ),
         "bmi":          extract_pattern(
             r"bmi[^\d]*(\d+(?:\.\d+)?|[a-z\s\-]+)"
