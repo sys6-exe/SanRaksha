@@ -18,8 +18,8 @@ Changes from original:
 import os
 import json
 
-from transcriber import transcribe_audio, CONFIDENCE_THRESHOLD
-from parser import extract_health_data, CONF_UNCERTAIN, CONF_MISSING, CLINICAL_RANGES
+from src.transcriber import transcribe_audio, CONFIDENCE_THRESHOLD
+from src.parser import extract_health_data, CONF_UNCERTAIN, CONF_MISSING, CLINICAL_RANGES
 
 # ── Colour helpers (ANSI — works in most terminals) ──────────────────────────
 RED    = "\033[91m"
