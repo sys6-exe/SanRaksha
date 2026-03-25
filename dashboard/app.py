@@ -23,7 +23,6 @@ import pandas as pd
 import streamlit as st
 import folium
 import plotly.express as px
-import plotly.graph_objects as go
 from streamlit_folium import folium_static
 from datetime import datetime
 
