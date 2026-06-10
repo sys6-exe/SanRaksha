@@ -145,7 +145,6 @@ def print_report(metrics: dict[str, Any]) -> None:
     print(f"Field slots: {metrics['field_slots']}")
     print(f"Populated ground-truth fields: {metrics['populated_ground_truth_fields']}")
     for key in percent_keys:
-    for key in percent_keys:
         print(f"{key}: {metrics[key] * 100:.2f}%")
     print(f"Slot counts: {metrics['slot_counts']}")
     for language, values in metrics["by_language"].items():
