@@ -124,7 +124,7 @@ def evaluate(cases: list[dict[str, Any]]) -> dict[str, Any]:
         "hallucination_rate": safe_div(hallucinations, hallucination_opportunities),
         "confidence_label_accuracy": safe_div(confidence_correct, total_slots),
         "review_flag_accuracy": safe_div(review_correct, len(cases)),
-        "confusion_counts": {"tp": tp, "fp": fp, "fn": fn, "tn": tn},
+        "slot_counts": {"tp": tp, "fp": fp, "fn": fn, "tn": tn},
         "by_language": by_language,
         "failures": failures,
     }
