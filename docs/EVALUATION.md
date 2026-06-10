@@ -1,10 +1,5 @@
 # SanRaksha Evaluation and Metrics
 
-This document separates **reproducible measurements**, **saved notebook results**, and
-**code-verifiable product scope**. Do not combine them into a single "pipeline
-accuracy" number: the repository does not contain a labeled audio corpus that would
-allow Whisper transcription and structured extraction to be evaluated end to end.
-
 ## 1. NLP structured-extraction benchmark (reproducible)
 
 Run:
