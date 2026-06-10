@@ -1,4 +1,4 @@
-# SanRaksha Evaluation and Resume Metrics
+# SanRaksha Evaluation and Metrics
 
 This document separates **reproducible measurements**, **saved notebook results**, and
 **code-verifiable product scope**. Do not combine them into a single "pipeline
@@ -98,21 +98,3 @@ is committed, so the repository cannot substantiate claims such as number of pat
 served, percentage reduction in referral time, dashboard speedup, or geographic
 coverage. Add those measurements before using impact language.
 
-## 4. Resume-ready wording
-
-Use wording that preserves the scope of each measurement:
-
-> Built an offline maternal-health NLP parser and benchmarked transcript-to-vitals
-> extraction on 30 labeled English/Hinglish test utterances (240 field slots), achieving
-> 97.1% field accuracy, 100% precision, 93.3% recall, 96.5% F1, and 0% hallucination on
-> absent fields; identified spoken-number parsing as the primary error slice.
-
-> Developed an on-device maternal-risk classifier that recorded 96.3% accuracy, 97.4%
-> high-risk recall, and 95.3% high-risk F1 on a saved 296-example test split.
-
-> Engineered a Streamlit PHC monitoring dashboard with 2 role-based access levels, 4
-> analytical/alert views, 3 live risk KPIs, geospatial case mapping, weekly trends, CSV
-> reporting, and offline API fallbacks.
-
-If space permits, add “prototype benchmark” or “held-out notebook test split” to avoid
-implying external clinical validation.
